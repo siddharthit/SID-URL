@@ -1,0 +1,128 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  background-image: url(pic1.jpg);
+   position: relative;
+  }
+h1,
+h2{
+
+  font-family: cursive;
+  text-align: center;
+  font-style: oblique;
+  text-decoration:underline;
+  color: #fff;
+}
+
+th{
+ 
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  text-decoration:wavy;
+  color: rgb(242, 236, 199);
+}
+table{
+  justify-content: center;
+  text-align: center;
+   
+}
+
+.button{
+  text-align: center;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    clip-path: polygon(100% 0, 100% 66%, 100% 100%, 9% 100%, 0 67%, 0 0);
+    font-family: sans-serif;
+    text-decoration: none;
+     background: #FF0000;
+    color: black;
+    border: 0px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .button span{
+    position: relative;
+    z-index: 2;
+  }
+
+  .button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #B91313;
+    transition: all .35s;
+  }
+  
+  .button:hover{
+    color: #fff;
+  }
+  
+  .button:hover:after{
+    width: 100%;
+  }
+
+  
+  .text{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 3px solid #FF0000;
+    color: #ff0000;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .text:hover{
+    color: #fff;
+    background: #FF0000;
+    transition: all .35s;
+  }
+  
+@media (max-width:750px){ 
+  #button{
+    margin-top: 60px;
+    text-align: center;
+
+  }
+  h2{
+    color:aqua;
+    font-family:Georgia, serif;;
+  
+   
+    
+  }
+  h1{
+   font-family: cursive;
+    text-align: center;
+    font-style: oblique;
+    text-decoration:underline;
+  }
+th{
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  text-decoration:wavy;
+  color: rgb(242, 236, 199);
+ 
+}
+}
